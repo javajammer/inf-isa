@@ -1,0 +1,40 @@
+# Rahasia & kredensial
+**/.env
+**/.env.*
+**/*secret*
+**/*token*
+**/*password*
+**/*credential*
+**/*apikey*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*id_rsa*
+**/*.gpg
+
+# Dump database / sensitif
+**/*.sql
+**/*.bak
+**/*.ldf
+**/*.mdf
+
+# Pcap besar (aktifkan kalau mau disimpan di storage terpisah)
+# **/*.pcap
+# **/*.pcapng
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build / node / python artifacts
+node_modules/
+__pycache__/
+*.pyc
